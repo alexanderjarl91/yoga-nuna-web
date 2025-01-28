@@ -1,8 +1,7 @@
 'use client';
 
-import { Search, Heart, Bot as Lotus } from 'lucide-react';
+import { Search, Heart } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { ThemeToggle } from '@/components/theme-toggle';
 import { useAuth } from '@/hooks/useAuth';
 
 export function Header() {
